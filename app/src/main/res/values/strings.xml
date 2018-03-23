@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OnTime</string>
+    <string name="login_button">Log In</string>
+    <string name="craeateacc_but">Create account</string>
+    <string name="Student_but">Student</string>
+    <string name="faculty_but">Faculty</string>
+    <string name="title_activity_teacher_login">Sign in</string>
+
+
+</resources>
