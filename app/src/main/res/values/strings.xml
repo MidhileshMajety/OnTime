@@ -6,9 +6,11 @@
     <string name="faculty_but">Faculty</string>
     <string name="title_activity_teacher_login">Sign in</string>
     <string name="name">Name</string>
-    <string name="name">Name</string>
-    <string name="name">Name</string>
     <string name="button">Button</string>
+    <string name="batch">Batch</string>
+    <string name="enrollmentno">Enrollment Number</string>
+    <string name="password">Password</string>
+    <string name="email">Email ID</string>
 
 
 </resources>
