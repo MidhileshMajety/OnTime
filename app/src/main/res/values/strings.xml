@@ -5,6 +5,10 @@
     <string name="Student_but">Student</string>
     <string name="faculty_but">Faculty</string>
     <string name="title_activity_teacher_login">Sign in</string>
+    <string name="name">Name</string>
+    <string name="name">Name</string>
+    <string name="name">Name</string>
+    <string name="button">Button</string>
 
 
 </resources>
