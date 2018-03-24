@@ -11,6 +11,10 @@
     <string name="enrollmentno">Enrollment Number</string>
     <string name="password">Password</string>
     <string name="email">Email ID</string>
+    <string name="facultyid">Faculty ID</string>
+    <string name="facultyname">Name</string>
+    <string name="courseid">Course ID</string>
+    <string name="register">Register</string>
 
 
 </resources>
