@@ -15,6 +15,7 @@
     <string name="facultyname">Name</string>
     <string name="courseid">Course ID</string>
     <string name="register">Register</string>
+    <string name="todo">TODO</string>
 
 
 </resources>
