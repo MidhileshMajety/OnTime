@@ -8,7 +8,8 @@ import android.widget.Button;
 
 public class LoginRegistrationActivity extends AppCompatActivity {
 private Button b;
-    @Override
+private Button c;
+@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_registration);
@@ -18,9 +19,22 @@ private Button b;
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(LoginRegistrationActivity.this,LoginActivity.class);
+                Intent i = new Intent(LoginRegistrationActivity.this,RegistrationActivity.class);
                 startActivity(i);
             }
         });
+
+        c = (Button)findViewById(R.id.login);
+        c.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openloginpage();
+            }
+        });
+
+    }
+    public void openloginpage(){
+    Intent j = new Intent(LoginRegistrationActivity.this, LoginActivity.class);
+    startActivity(j);
     }
 }

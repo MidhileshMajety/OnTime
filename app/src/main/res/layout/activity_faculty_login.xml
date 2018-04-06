@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.milli.ontime.FacultyLoginActivity">
+    tools:context="com.milli.ontime.FacultyLoginActivity"
+    android:background="@drawable/facullog">
 
     <EditText
         android:id="@+id/facultyid"
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="100dp"
         android:ems="10"
         android:hint="@string/facultyid"
         android:inputType="textPersonName"
@@ -20,7 +21,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView3" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/password"
@@ -28,6 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"
@@ -40,29 +42,15 @@
         android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="70dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="100dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="30dp"
-        android:text="Button"
+        android:layout_marginTop="10dp"
+        android:background="#87c4b9"
+        android:text="@string/login_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password"
-        android:background="#C7E360"/>
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="269dp"
-        android:layout_height="200dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/facultyid"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ontimelogo" android:contentDescription="TODO"/>
 </android.support.constraint.ConstraintLayout>

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.milli.ontime.StudentRegistrationActivity">
+    tools:context="com.milli.ontime.StudentRegistrationActivity"
+     android:background="@drawable/studreg">
 
     <EditText
         android:id="@+id/name"
@@ -99,7 +100,8 @@
         android:layout_marginBottom="4dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:text="@string/button"
+        android:background="#6abbcd"
+        android:text="@string/register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

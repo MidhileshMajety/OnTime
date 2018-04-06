@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.milli.ontime.LoginActivity"
-    android:background="@drawable/background">
+    tools:context="com.milli.ontime.LoginActivity">
 
     <Button
         android:id="@+id/student_but"
@@ -15,12 +14,13 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:background="#FFDB0E"
         android:text="@string/Student_but"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/facult_but"
         app:layout_constraintHorizontal_bias="0.475"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView4"
         app:layout_constraintVertical_bias="0.799" />
 
     <Button
@@ -31,12 +31,28 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:background="#C7E360"
         android:text="@string/faculty_but"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintLeft_toRightOf="@id/student_but"
         app:layout_constraintStart_toEndOf="@id/student_but"
+        app:layout_constraintTop_toBottomOf="@id/imageView4"
+        app:layout_constraintVertical_bias="0.53" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="387dp"
+        android:layout_height="301dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/student_but"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.799"
-        app:layout_constraintLeft_toRightOf="@id/student_but"/>
+        app:srcCompat="@drawable/ontimelogo" />
 </android.support.constraint.ConstraintLayout>
