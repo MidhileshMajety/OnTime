@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -27,7 +28,7 @@
         <activity android:name=".FacultyRegistrationActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".StudentLoginActivity" />
-        <activity android:name=".FacultyLoginActivity"></activity>
+        <activity android:name=".FacultyLoginActivity" />
     </application>
 
 </manifest>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "739269873738",
+    "firebase_url": "https://on-time-c384f.firebaseio.com",
+    "project_id": "on-time-c384f",
+    "storage_bucket": "on-time-c384f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739269873738:android:8ef59123592f476b",
+        "android_client_info": {
+          "package_name": "com.milli.ontime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739269873738-g3htis999od2u4lvisik71d4ufjlla6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdlfOz919R37Yq6mq21wQK572PcPfhU4A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
