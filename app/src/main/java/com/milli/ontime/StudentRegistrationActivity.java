@@ -69,8 +69,8 @@ public class StudentRegistrationActivity extends AppCompatActivity {
         String email=EmailID.getText().toString();
         String enrollmentno=EnrollmentNumber.getText().toString();
 
-        if(name.isEmpty() && password.isEmpty() && email.isEmpty() && batch.isEmpty() && enrollmentno.isEmpty()){
-            Toast.makeText(this, "please enter all the details",Toast.LENGTH_SHORT);
+        if(name.isEmpty() || password.isEmpty() || email.isEmpty() || batch.isEmpty() || enrollmentno.isEmpty()){
+            Toast.makeText(this, "please enter all the details",Toast.LENGTH_SHORT).show();
         }else{
             result = true;
         }
