@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StudentMainPage"
-    android:background="@drawable/IMG_29466">
+    tools:context="com.milli.ontime.StudentMainPage"
+    android:background="@drawable/img_29466">
 
     <Button
         android:id="@+id/button2"
@@ -13,9 +13,10 @@
         android:layout_height="110dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="100dp"
+        android:background="#B795D3"
         android:text="@string/request"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@id/button4"
+        app:layout_constraintBottom_toTopOf="@id/logOut"
         app:layout_constraintEnd_toStartOf="@id/button3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -28,22 +29,24 @@
         android:layout_marginEnd="10dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="100dp"
+        android:background="#B795D3"
         android:text="@string/myappointments"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/logOut"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.204" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/logOut"
         android:layout_width="212dp"
         android:layout_height="52dp"
         android:layout_marginBottom="50dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="150dp"
+        android:background="#8862A7"
         android:text="@string/logout"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

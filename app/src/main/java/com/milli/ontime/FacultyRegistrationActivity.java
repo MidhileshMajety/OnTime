@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -53,7 +52,7 @@ public class FacultyRegistrationActivity extends AppCompatActivity {
     private void setupUIViews(){
         name = (EditText)findViewById(R.id.name);
         password = (EditText)findViewById(R.id.password);
-        facultyid = (EditText)findViewById(R.id.facultyid);
+        facultyid = (EditText)findViewById(R.id.Emailid);
         facultymail = (EditText)findViewById(R.id.facultymail);
         courseid = (EditText)findViewById(R.id.courseid);
         Register = (Button)findViewById(R.id.Register);

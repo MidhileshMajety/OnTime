@@ -55,7 +55,7 @@ public class StudentRegistrationActivity extends AppCompatActivity {
         Name= (EditText)findViewById(R.id.name);
         Password= (EditText)findViewById(R.id.password);
         Batch= (EditText)findViewById(R.id.batch);
-        EnrollmentNumber= (EditText)findViewById(R.id.enrollmentno);
+        EnrollmentNumber= (EditText)findViewById(R.id.emailid);
         EmailID = (EditText)findViewById(R.id.email);
         button =(Button)findViewById(R.id.button);
     }

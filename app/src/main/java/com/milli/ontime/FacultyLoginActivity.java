@@ -18,7 +18,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class FacultyLoginActivity extends AppCompatActivity {
 
-    private EditText FacultyID;
+    private EditText Facultymail;
     private EditText Password;
     private Button LOGIN;
     private FirebaseAuth firebaseAuth;
@@ -29,7 +29,7 @@ public class FacultyLoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_faculty_login);
 
-        FacultyID = (EditText)findViewById(R.id.facultyid);
+        Facultymail = (EditText)findViewById(R.id.Emailid);
         Password = (EditText)findViewById(R.id.password);
         LOGIN = (Button)findViewById(R.id.login);
         firebaseAuth = FirebaseAuth.getInstance();
@@ -37,26 +37,26 @@ public class FacultyLoginActivity extends AppCompatActivity {
         FirebaseUser user = firebaseAuth.getCurrentUser();
         if(user!=null) {
             finish();
-            startActivity(new Intent(FacultyLoginActivity.this , FacultyRegistrationActivity.class));
+            startActivity(new Intent(FacultyLoginActivity.this , FacultyMainPage.class));
            }
            LOGIN.setOnClickListener(new View.OnClickListener() {
                @Override
                public void onClick(View view) {
-                   validate(FacultyID.getText().toString() , Password.getText().toString());
+                   validate(Facultymail.getText().toString() , Password.getText().toString());
                }
            });
         }
-        private void validate(String FacultyID , String Password){
+        private void validate(String Facultymail , String Password){
 
         progressDialog.setMessage("You can use this until you are verified");
         progressDialog.show();
-        firebaseAuth.createUserWithEmailAndPassword(FacultyID , Password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        firebaseAuth.signInWithEmailAndPassword(Facultymail , Password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     progressDialog.dismiss();
                     Toast.makeText(FacultyLoginActivity.this,"Login Successfull",Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(FacultyLoginActivity.this , StudentLoginActivity.class));
+                    startActivity(new Intent(FacultyLoginActivity.this , FacultyMainPage.class));
                 }else{
                     Toast.makeText(FacultyLoginActivity.this,"Login Failed",Toast.LENGTH_SHORT).show();
                 }
