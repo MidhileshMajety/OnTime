@@ -12,6 +12,7 @@ public class StudentMainPage extends AppCompatActivity {
 
     private FirebaseAuth firebaseAuth;
     private Button LogOut;
+    private Button Check;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,5 +28,7 @@ public class StudentMainPage extends AppCompatActivity {
 
             }
         });
+
+
     }
 }

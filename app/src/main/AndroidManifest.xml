@@ -31,6 +31,7 @@
         <activity android:name=".FacultyLoginActivity" />
         <activity android:name=".StudentMainPage" />
         <activity android:name=".FacultyMainPage" />
+        <activity android:name=".StudentRequest"></activity>
     </application>
 
 </manifest>

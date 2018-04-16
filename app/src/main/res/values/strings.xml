@@ -28,6 +28,16 @@
     <string name="logout">LogOut</string>
     <string name="request">Request</string>
     <string name="title_activity_student_main_page1">StudentMainPage1</string>
-
+    <string name="Selectfaculty">Select Faculty</string>
+    <string-array name="Facultyname">
+        <item>Kumar Nitesh</item>
+        <item>Manoj Kumar</item>
+        <item>Prosenjith Gupta</item>
+        <item>Deepika padukone</item>
+    </string-array>
+    <string name="appointmentdate">Appointment Date</string>
+    <string name="set">Set Date</string>
+<string name="desc">Description</string>
+    <string name="request1">Request Appointment</string>
 
 </resources>
