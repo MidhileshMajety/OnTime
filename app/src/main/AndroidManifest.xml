@@ -31,7 +31,9 @@
         <activity android:name=".FacultyLoginActivity" />
         <activity android:name=".StudentMainPage" />
         <activity android:name=".FacultyMainPage" />
-        <activity android:name=".StudentRequest"></activity>
+        <activity android:name=".StudentRequest" />
+        <activity android:name=".StudentCheckRequest" />
+        <activity android:name=".FacultyCheckStatus"></activity>
     </application>
 
 </manifest>
